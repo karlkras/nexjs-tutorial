@@ -1,0 +1,10 @@
+#### get tasks
+GET http://localhost:3000/api/tasks
+
+### create task
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+  "content": "Here's a task for you!"
+}
